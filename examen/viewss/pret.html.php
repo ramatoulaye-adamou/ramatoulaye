@@ -1,5 +1,5 @@
 <?php
-require_once("../modell/auteur.model.php");
+require_once("modell/auteur.model.php");
 $pret=find_all_pret();
 ?>
 <!DOCTYPE html>

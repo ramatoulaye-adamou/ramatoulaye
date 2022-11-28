@@ -1,11 +1,5 @@
 <?php
-require_once("./modell/auteur.model.php");
-//var_dump($_GET);
-//die;
-if(isset($_GET["view"])){
-    var_dump($_GET["view"]);
-};
-
+require_once("modell/auteur.model.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +39,7 @@ if(isset($_GET["view"])){
             
             }
         }else {
-            require_once("./viewss/auteur.html.php");
+            require_once("viewss/auteur.html.php");
         };
         
     ?>

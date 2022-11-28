@@ -1,5 +1,5 @@
 <?php
-require_once("../modell/auteur.model.php");
+require_once("modell/auteur.model.php");
 $ouvrage=find_all_ouvrage();
 ?>
 <!DOCTYPE html>

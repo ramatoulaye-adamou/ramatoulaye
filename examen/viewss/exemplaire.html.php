@@ -1,5 +1,5 @@
 <?php
-require_once("../modell/auteur.model.php");
+require_once("modell/auteur.model.php");
 $exemplaire=find_all_exemplaire();
 ?>
 <!DOCTYPE html>
